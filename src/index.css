@@ -62,18 +62,18 @@ code {
   width: 100%;
 }
 
-.task {
+.movie {
   background: #f4f4f4;
   margin: 5px;
   padding: 10px 20px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
-.task.reminder {
+.movie.reminder {
   border-left: 5px solid green;
 }
 
-.task h3 {
+.movie h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
