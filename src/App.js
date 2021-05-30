@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Header from './components/Header'
 import Movies from './components/Movies'
+import AddMovie from './components/AddMovie'
 
 const App = () => {
   const [movies, setMovies] = useState(
@@ -25,11 +26,11 @@ const App = () => {
       }
     ]
   )
-  console.log(movies)
 
   return (
     <div className='container'>
       <Header />
+      <AddMovie />
       <Movies movies={movies} />
     </div>
     )
